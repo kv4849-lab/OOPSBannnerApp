@@ -1,0 +1,30 @@
+class Banner {
+
+    String message;
+
+    // Constructor
+    Banner(String message) {
+        this.message = message;
+    }
+
+    // Method to print banner
+    void displayBanner() {
+        System.out.println("*****************************");
+        System.out.println("*                           *");
+        System.out.println("*   " + message + "   *");
+        System.out.println("*                           *");
+        System.out.println("*****************************");
+    }
+}
+
+public class OOPSBannerUC7 {
+
+    public static void main(String[] args) {
+
+        // Creating object
+        Banner banner = new Banner("WELCOME TO OOPS APP");
+
+        // Calling method
+        banner.displayBanner();
+    }
+}
